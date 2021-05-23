@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/metro/static/css/main.83686265.chunk.css",
+    "main.js": "/metro/static/js/main.5f3c1ade.chunk.js",
+    "main.js.map": "/metro/static/js/main.5f3c1ade.chunk.js.map",
+    "runtime-main.js": "/metro/static/js/runtime-main.4f4e221e.js",
+    "runtime-main.js.map": "/metro/static/js/runtime-main.4f4e221e.js.map",
+    "static/js/2.5b93e021.chunk.js": "/metro/static/js/2.5b93e021.chunk.js",
+    "static/js/2.5b93e021.chunk.js.map": "/metro/static/js/2.5b93e021.chunk.js.map",
+    "index.html": "/metro/index.html",
+    "static/css/main.83686265.chunk.css.map": "/metro/static/css/main.83686265.chunk.css.map",
+    "static/js/2.5b93e021.chunk.js.LICENSE.txt": "/metro/static/js/2.5b93e021.chunk.js.LICENSE.txt",
+    "static/media/beep-1.f2a116ee.ogg": "/metro/static/media/beep-1.f2a116ee.ogg",
+    "static/media/click-1.b75f214e.wav": "/metro/static/media/click-1.b75f214e.wav",
+    "static/media/click-2.91940e3f.wav": "/metro/static/media/click-2.91940e3f.wav",
+    "static/media/click-3.026622a2.wav": "/metro/static/media/click-3.026622a2.wav",
+    "static/media/click-4.40e61f3c.wav": "/metro/static/media/click-4.40e61f3c.wav",
+    "static/media/click-5.7b7921e7.wav": "/metro/static/media/click-5.7b7921e7.wav",
+    "static/media/click-6.ba453eb3.wav": "/metro/static/media/click-6.ba453eb3.wav",
+    "static/media/explosion-truck.f9dfd606.wav": "/metro/static/media/explosion-truck.f9dfd606.wav",
+    "static/media/explosion.baf5f0f6.wav": "/metro/static/media/explosion.baf5f0f6.wav",
+    "static/media/interface-chirp-close.12247bdc.wav": "/metro/static/media/interface-chirp-close.12247bdc.wav",
+    "static/media/interface-chirp-open.43a7be55.wav": "/metro/static/media/interface-chirp-open.43a7be55.wav",
+    "static/media/step-1.0af06b31.wav": "/metro/static/media/step-1.0af06b31.wav",
+    "static/media/step-2.d0123c87.wav": "/metro/static/media/step-2.d0123c87.wav",
+    "static/media/street.97a9b371.mp3": "/metro/static/media/street.97a9b371.mp3",
+    "static/media/tears-in-rain.be5c398b.mp3": "/metro/static/media/tears-in-rain.be5c398b.mp3",
+    "static/media/water.7eadf9dd.wav": "/metro/static/media/water.7eadf9dd.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f4e221e.js",
+    "static/js/2.5b93e021.chunk.js",
+    "static/css/main.83686265.chunk.css",
+    "static/js/main.5f3c1ade.chunk.js"
+  ]
+}
