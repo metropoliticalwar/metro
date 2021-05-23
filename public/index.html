@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>The Game of Metropolitical War</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="overlay">
+      <img id="overlayImage" src="%PUBLIC_URL%/images/3d/hegemon-3d-2.gif" />
+      <h2>Your browser window is too small.</h2>
+      Resize your window to at least 1440px or zoom out to continue playing.
+    </div>
+    <div id="root">
+      <div id="navbar">
+        <span id="title"></span>
+        <span id="year"></span>
+      </div>
+      <div id="boardContainer">
+        <div id="board"></div>
+      </div>
+      <div id="settings" style="display: none"></div>
+      <div style="display: flex" id="info">
+        <div class="closeInfoPanel"><span id="closeInfo">✕</span></div>
+        <img
+          class="infoImage"
+          src="%PUBLIC_URL%/images/visuals/chongqing-1.gif"
+        />
+        <div id="infoTitle">THE GAME OF METROPOLITICAL WAR</div>
+
+        <div id="infoMenu">
+          <div class="menuButton" id="intelligenceButton">Intelligence</div>
+          <div class="menuButton" id="gameplayButton">Gameplay</div>
+          <div class="menuButton" id="hegemonButton">Hegemon</div>
+          <div class="menuButton" id="insurgentsButton">Insurgents</div>
+          <div class="menuButton" id="winningButton">Winning</div>
+        </div>
+
+        <div id="infoContentContainer">
+          <h1 id="infoMenuTitle"></h1>
+          <div id="infoContent"></div>
+        </div>
+      </div>
+      <div id="statusbar">
+        <div id="infoSettingsContainer">
+          <div id="openInfo"><span id="infoButton">🛈</span></div>
+          <div id="openSettings"><span id="settingsButton">⚙</span></div>
+          <div id="restartGame"><span id="restartGameButton">↺</span></div>
+        </div>
+        <div id="center">
+          <div id="whoMoves">To move: Insurgents</div>
+          <div id="startGame">Start</div>
+          <div id="endRound">End Round</div>
+        </div>
+        <div id="gameStats">
+          <div id="gameStatsAlive">
+            <span id="aliveInsurgents">Alive Insurgents:</span>
+            <span id="aliveHegemons">Alive Hegemons:</span>
+          </div>
+          <div id="gameStatsDead">
+            <span id="deadInsurgents">Dead Insurgents:</span>
+            <span id="deadHegemons">Dead Hegemons:</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
